@@ -1,0 +1,19 @@
+{
+    "name": "miniz",
+    "keywords": "gzip",
+    "description": "miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz",
+    "authors": [
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:Bawz/miniz.git"
+    },
+    "build": {
+      "includeDir": "./",
+      "flags": "-Os  -fdata-sections -ffunction-sections"
+    },
+    "version": "1.0.0",
+    "frameworks": "arduino",
+    "platforms": "espressif"
+  }
+  
